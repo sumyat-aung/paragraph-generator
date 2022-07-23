@@ -3,21 +3,18 @@
 ## Overview
 
   <h3>
-    <a href="https://colorflipper-by-sumyat.netlify.app/">
-      Demo - URL link - https://colorflipper-by-sumyat.netlify.app/
+    <a href="https://paragraphgenerator-by-sumyat.netlify.app/">
+      Demo - URL link - https://paragraphgenerator-by-sumyat.netlify.app/
     </a>
   </h3>
 
 <br/>
 <br/>
 
-![](demo/large-screen.png)
+![](Demo/large-screen.png)
 <br/>
 <br/>
-![](demo/large-screen-copy.png)
-<br/>
-<br/>
-![](demo/small-screen.png)
+![](Demo/small-screen.png)
 <br/>
 <br/>
 
