@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f2225;
+}
+
+/* background-color: #1f2225;
+color: #8a969c; */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Berkshire Swash", cursive;
+  color: #8a969c;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.form {
+  padding: 30px;
+  text-align: center;
+}
+
+.form label {
+  color: #8a969c;
+  font-family: "Delius", cursive;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.form #num {
+  width: 7%;
+  padding: 8px;
+  background-color: #8a969c;
+  color: #1f2225;
+  font-family: "Delius", cursive;
+  letter-spacing: 3px;
+  font-weight: 800;
+  border: none;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.form #num:focus {
+  outline: none;
+}
+
+.form #btn {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #8a969c;
+  color: #1f2225;
+  margin: 0 30px;
+  border: none;
+  font-family: "Delius", cursive;
+  letter-spacing: 3px;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.4s linear;
+}
+
+.form #btn:hover {
+  transform: translateY(-2px);
+}
+
+#lorem {
+  font-family: "Delius", cursive;
+
+  font-size: 1.5rem;
+  color: #8a969c;
+  margin: 5rem 5rem 0 5rem;
+  line-height: 1.7;
+}
+
+#fa {
+  color: #1f2225;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #8a969c;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+span {
+  color: #8a969c;
+  padding: 3px;
+  font-family: "Delius", cursive;
+  visibility: hidden;
+}
+
+.A {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .form {
+    width: 100%;
+    padding: 30px 3px 20px 3px;
+  }
+  .form #num {
+    padding: 8px;
+    width: 50px;
+  }
+  #lorem {
+    font-size: 1.6rem;
+    margin: 4rem 2rem 0 2rem;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  span {
+    position: absolute;
+    right: 18px;
+    top: 90px;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  span {
+    position: absolute;
+    right: 3px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 330px;
+    align-items: center;
+    /* background-color: aquamarine; */
+  }
+
+  span {
+    position: static;
+  }
+}
+@media screen and (max-width: 300px) {
+  #lorem {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+}
