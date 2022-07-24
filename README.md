@@ -2,9 +2,9 @@
 
 ## Overview
 
-  <h3>
+  <h3>   Demo - URL link -
     <a href="https://paragraphgenerator-by-sumyat.netlify.app/">
-      Demo - URL link - https://paragraphgenerator-by-sumyat.netlify.app/
+     https://paragraphgenerator-by-sumyat.netlify.app/
     </a>
   </h3>
 
@@ -14,18 +14,19 @@
 ![](Demo/large-screen.png)
 <br/>
 <br/>
-![](Demo/small-screen.png)
+<div align="center">
+<img src="Demo/small-screen.png" width="300">
+</div>
 <br/>
 <br/>
 
 ## Built With
 
-- **HTML** ,
-- **CSS** and
+- **HTML** 
+- **CSS**
 - **JS**
 
 ## Features
 
-- **Responsive and look great on all devices**
 - **Random meaningful paragraph generating**
 - **Copy with one click**
